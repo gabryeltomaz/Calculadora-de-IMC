@@ -85,8 +85,15 @@ body{
     font-size: 1.3rem;
     color: $branco;
     padding: 0 0.5rem;
+
+
+
   }
 
+}
+
+.input-field input:focus{
+  outline: none;
 }
 
 .input-field input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
@@ -94,9 +101,7 @@ body{
   
 }
 
-.input-field input::focus{
-  outline: none;
-}
+
 
 #calculate{
   color: $branco;

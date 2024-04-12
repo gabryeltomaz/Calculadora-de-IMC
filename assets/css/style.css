@@ -12185,12 +12185,12 @@ body {
   padding: 0 0.5rem;
 }
 
-.input-field input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
-  appearance: none;
+.input-field input:focus {
+  outline: none;
 }
 
-.input-field input::focus {
-  outline: none;
+.input-field input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  appearance: none;
 }
 
 #calculate {
