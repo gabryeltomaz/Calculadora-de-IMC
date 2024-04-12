@@ -12253,4 +12253,12 @@ body {
   display: none;
 }
 
+.normal {
+  color: rgb(29, 212, 54);
+}
+
+.attention {
+  color: #dc2626;
+}
+
 /*# sourceMappingURL=style.css.map */
